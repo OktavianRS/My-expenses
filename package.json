@@ -1,9 +1,16 @@
 {
-    "name": "application-name"
+    "name": "My-expenses"
   , "version": "0.0.1"
   , "private": true
+  , "scripts": {
+    "start": "node app"
+  }
   , "dependencies": {
       "express": "2.5.8"
     , "jade": ">= 0.0.1"
+  }
+  ,"engines": {
+    "node": "1.0.2",
+    "npm": "3.3.8"
   }
 }
